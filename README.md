@@ -19,17 +19,20 @@
   * - install the apache web server on the remote system(s)
   * - create the wev server directory
   * - web server directory has proper ownership
+  
   #### - configuration of apache
     * - copy the http configuration file
     * - set up the vhost directory
     * - add any ssl keys if needed
     * - add the vhost template for the default site
+  
   #### - copy the site code to the new directory
   #### - start the apache service
   ####- add/enable anyt modules needed
     * - mysql/mariadb
     * - ssl
     * - mod/rewrite
+  
   #### - restart the apache service (or move the start to here)
 
 ### - Test
